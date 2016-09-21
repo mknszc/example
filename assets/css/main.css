@@ -1,0 +1,1148 @@
+
+body {
+
+	background: none;
+	zoom:93%;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	color:black;
+	margin-top:20px;
+	min-height:90%;
+}
+h1, p, h2, h3, h4 , h5
+{
+	color: black;
+}
+.footer {
+	
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ddd;
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+.icon-lg{
+	font-size:48px;
+	height:108px;
+	width:108px;
+	line-height:108px;
+	color:#fff;
+	margin:10px;
+	background-color:rgba(0,0,0,0.4);
+	text-align:center;
+	display:inline-block!important;
+	border-radius:20%;
+}
+
+.icon-md{
+	font-size:24px;
+	height:68px;
+	width:68px;
+	line-height:68px;
+	color:#fff;
+	margin-right:10px;
+	background-color:rgba(0,0,0,0.4);
+	text-align:center;
+	display:inline-block;
+	border-radius: 100%;
+	margin-bottom:10px;
+	border:1px solid;
+}
+
+.icon-color1{
+	background-color:transparent;
+	color:black;
+}
+
+.icon-color2{
+	background-color:transparent;
+	color:black;
+}
+
+.icon-color3{
+	background-color:transparent;
+	color:black;
+}
+.icon-color4{
+	background-color:transparent;
+	color:black;
+}
+
+.icon-color5{
+	background-color:transparent;
+	color:black;
+
+}
+.icon-color6{
+	background-color:transparent;
+	color:black;
+}
+
+
+.input-group-addon {
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1;
+    color: #000000;
+    text-align: center;
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+    border-radius: 0;
+}
+
+.btn {
+    padding: 8px 37px;
+    font-family: "Inconsolata", sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    border-radius: 0;
+	
+}
+
+.access-section .form-control {
+    font-size: 16px;
+    padding-left: 30px;
+    font-size: 14px;
+    border-radius: 0;
+
+
+}
+
+.facebook-btn {
+	margin-top:37%;
+
+}
+
+
+
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+a {
+  color: #ec6952;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #e74124;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+.btn,
+a.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+.btn .fa,
+a.btn .fa {
+  color: #fff;
+  margin-right: 5px;
+}
+a.btn-cta,
+.btn-cta {
+  padding: 8px 30px;
+}
+
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: #ec6952;
+  border: 2px solid #ec6952;
+  color: #fff;
+}
+
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: #e9553b;
+  border: 2px solid #e9553b;
+  color: #fff;
+}
+
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  background: none;
+  border: 2px solid #ec6952;
+  color: #ec6952;
+}
+
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
+  background: #ec6952;
+  border: 2px solid #ec6952;
+  color: #fff;
+}
+
+a.btn-ghost,
+.btn-ghost {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff !important;
+  padding: 8px 20px;
+  vertical-align: middle;
+}
+a.btn-ghost:hover,
+.btn-ghost:hover {
+  background: #4a6781;
+  border: 1px solid #4a6781;
+  color: #fff;
+}
+a.btn-ghost .fa,
+.btn-ghost .fa {
+  margin-right: 10px;
+  font-size: 22px;
+}
+a.btn-ghost .text,
+.btn-ghost .text {
+  position: relative;
+  top: -2px;
+}
+.highlight {
+  color: #ec6952;
+}
+.form-control {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  height: 40px;
+  border-color: #eee;
+}
+.form-control::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #a6a6a6;
+}
+.form-control:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #a6a6a6;
+}
+.form-control::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #a6a6a6;
+}
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #a6a6a6;
+}
+.form-control:focus {
+  border-color: #e1e1e1;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.text-highlight {
+  color: #952410;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+input[type="button"],
+textarea,
+select {
+	font-size: initial;
+  appearance: none;
+  /* for mobile safari */
+  -webkit-appearance: none;
+}
+
+
+
+.access-section {
+  padding: 70px 10px 0px;
+}
+.access-section .form-box .form-box-inner {
+  background: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 40px;
+}
+.access-section .form-box .title {
+  font-weight: 300;
+  margin-bottom: 60px;
+  margin-top: 0;
+}
+.access-section.signup-section .title {
+  margin-bottom: 15px;
+}
+.access-section.signup-section .intro {
+  margin-bottom: 60px;
+}
+.access-section .form-group {
+  position: relative;
+}
+.access-section .form-group.email:before {
+  content: "\f007";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  color: #999;
+}
+.access-section .form-group.password:before {
+  content: "\f023";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  color: #999;
+}
+.access-section .form-control {
+  font-size: 16px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.access-section .form-control::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999;
+}
+.access-section .form-control:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+.access-section .form-control::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+}
+.access-section .form-control:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #999;
+}
+.access-section .social-btns {
+  padding-left: 60px;
+  min-height: 0;
+  margin-bottom: 0;
+}
+.access-section .social-btns li {
+  margin-bottom: 10px;
+}
+.access-section .social-btns li .btn {
+  color: #fff;
+  min-width: 220px;
+  text-align: left;
+}
+.access-section .social-btns li .btn:hover {
+  color: #fff;
+}
+.access-section .social-btns li .btn .fa {
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  padding-right: 10px;
+  width: 30px;
+}
+.access-section .twitter-btn {
+  background: #55acee;
+}
+.access-section .twitter-btn:hover {
+  background: #2795e9;
+}
+.access-section .facebook-btn {
+  background: #3b5998;
+}
+.access-section .facebook-btn:hover {
+  background: #2d4373;
+}
+.access-section .google-btn {
+  background: #dd4b39;
+}
+.access-section .google-btn:hover {
+  background: #c23321;
+}
+.access-section .github-btn {
+  background: #444;
+}
+.access-section .github-btn:hover {
+  background: #2b2b2b;
+}
+.access-section .forgot-password {
+  font-size: 13px;
+  margin-top: 10px;
+}
+.access-section .forgot-password a {
+  color: #999;
+}
+.access-section .forgot-password a:hover {
+  text-decoration: underline;
+  color: #ec6952;
+}
+.access-section .divider {
+  border-left: none;
+  margin-bottom: 30px;
+  position: static;
+}
+.access-section .divider span {
+  background: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  position: relative;
+  top: inherit;
+  text-transform: uppercase;
+  color: #999;
+}
+.access-section .divider:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  background: #e5e5e5;
+  height: 1px;
+  width: 100%;
+}
+.access-section .social-btns {
+  padding-left: 0;
+  text-align: center;
+}
+.access-section .social-btns .btn {
+  min-width: 100%;
+}
+.access-section .social-btns .social-login {
+  display: inline-block;
+  margin: 0 auto;
+}
+.access-section .note {
+  color: #999;
+  font-size: 13px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.access-section .btn + .note {
+  margin: 15px 0;
+}
+.access-section .remember label {
+  font-size: 14px;
+  color: #666;
+}
+.access-section .lead {
+  font-size: 14px;
+  color: #999;
+  margin-top: 30px;
+}
+/* ======= Reset Password Page ======= */
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  
+  .access-section {
+    padding-top: 15px; 
+  }
+  
+  .access-section {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+  .signup-page .form-box .intro {
+    margin-bottom: 45px;
+  }
+  .login-page .form-box .title {
+    margin-bottom: 45px;
+  }
+  .section .title {
+    font-size: 32px;
+  }
+  .section .intro {
+    font-size: 16px;
+  }
+  .promo {
+    height: 420px;
+  }
+  .why .item .content {
+    margin-bottom: 60px;
+  }
+  .why .control {
+    top: 58px;
+    margin-left: -30px;
+  }
+  .why .item .title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .testimonials .item .profile {
+    position: static;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+  .testimonials .item .content {
+    padding-left: 60px;
+  }
+  .testimonials .item blockquote {
+    font-size: 18px;
+  }
+  .pricing .item.best-buy {
+    position: static;
+    z-index: inherit;
+  }
+  .nav-tabs > li > a {
+    padding: 10px 5px;
+  }
+  .apps-section .phone-holder {
+    -webkit-background-size: 280px auto;
+    -moz-background-size: 280px auto;
+    -o-background-size: 280px auto;
+    background-size: 280px auto;
+  }
+  .apps-section .phone-holder .screenshot {
+    width: 242px;
+    top: 66px;
+  }
+  .searchbox-container .searchbox {
+    width: 100%;
+    top: inherit;
+    float: none;
+    margin-bottom: 30px;
+  }
+  .searchbox-icon {
+    display: none;
+  }
+  .searchbox-icon,
+  .searchbox-submit {
+    background: #ec6952;
+    color: #fff;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+  .searchbox-icon:hover,
+  .searchbox-submit:hover {
+    color: #fff;
+  }
+
+  
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .access-page .navbar-collapse.collapse .navbar-nav {
+    display: none;
+  }
+  .access-section .divider {
+    text-align: left;
+    margin-bottom: 30px;
+    color: #999;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 110%;
+  }
+  .access-section .divider span {
+    background: #fff;
+    display: inline-block;
+    padding: 10px 0;
+    position: relative;
+    top: 80px;
+    margin-left: -10px;
+  }
+  .access-section .divider:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e5e5e5;
+    height: 100%;
+    width: 1px;
+  }
+  .access-section .social-btns {
+    padding-left: 65px;
+  }
+  .access-section .social-btns .note {
+    text-align: left;
+  }
+  
+
+  .reg{
+	top:60px;
+  }
+  
+
+}
+/* Large devices (large desktops, 1200px and up) */
+
+/* ------------------------------------------------------------------
+Project: Semantic
+Version: 1.1
+Do not edit this file - Place your styles in custom.css
+------------------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------------------
+General Styles
+------------------------------------------------------------------- */
+
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	
+}
+
+
+/* Transition elsements */
+
+.form-control{
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	   -moz-transition: all 0.4s ease-in-out 0s;
+		-ms-transition: all 0.4s ease-in-out 0s;
+		 -o-transition: all 0.4s ease-in-out 0s;
+			transition: all 0.4s ease-in-out 0s;
+}
+
+a,
+.btn{
+	-webkit-transition: all 0.125s ease-in-out 0s;
+	   -moz-transition: all 0.125s ease-in-out 0s;
+		-ms-transition: all 0.125s ease-in-out 0s;
+		 -o-transition: all 0.125s ease-in-out 0s;
+			transition: all 0.125s ease-in-out 0s;
+}
+
+.team-detail,
+.team-image:after,
+.work-caption,
+.work-image > img,
+.work-image:after {
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	   -moz-transition: all 0.3s ease-in-out 0s;
+		-ms-transition: all 0.3s ease-in-out 0s;
+		 -o-transition: all 0.3s ease-in-out 0s;
+			transition: all 0.3s ease-in-out 0s;
+}
+
+/* Reset border-radius */
+
+.well,
+.label,
+.alert,
+.progress,
+.form-control,
+.modal-content,
+.panel-heading,
+.panel-group .panel {
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+		 -o-border-radius: 2px;
+			border-radius: 2px;
+}
+
+/* Reset box-shadow */
+
+.btn,
+.well,
+.panel,
+.progress,
+.progress-bar,
+.form-control,
+.form-control:hover,
+.form-control:focus,
+.dropdown-menu {
+	-webkit-box-shadow: none;
+			box-shadow: none;
+}
+
+/* ------------------------------------------------------------------
+Form styles
+------------------------------------------------------------------- */
+
+.form-control {
+	font-family:'PT Sans', sans-serif;
+	
+	letter-spacing: 0.1em;
+	font-size: 11px;
+	height: 33px;
+	border: 1px solid #b2b2b2;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+}
+
+.form-control:focus {
+	border-color: #CACACA;
+}
+
+/* Form sizes */
+
+.input-lg,
+.form-horizontal .form-group-lg .form-control {
+	height: 43px;
+	font-size: 13px;
+}
+
+.input-sm, .form-horizontal .form-group-sm .form-control {
+	height: 29px;
+	font-size: 10px;
+}
+
+/* ------------------------------------------------------------------
+Button styles
+------------------------------------------------------------------- */
+
+.btn {
+	padding: 8px 37px;
+	font-family: "Inconsolata", sans-serif;
+	
+	letter-spacing: 0.1em;
+	font-size: 11px;
+}
+
+.btn.focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+	outline: 0;
+}
+
+.btn.btn-round {
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+}
+
+.btn.btn-circle {
+	-webkit-border-radius: 30px;
+	   -moz-border-radius: 30px;
+	        border-radius: 30px;
+}
+
+/* Button colors */
+
+.btn.btn-g {
+	background: transparent;
+	border: 1px solid #b2b2b2;
+	color: #666;
+}
+
+.btn.btn-g:hover,
+.btn.btn-g:focus {
+	background: #b2b2b2;
+	color: #fff;
+}
+
+.btn.btn-border-d {
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+
+.btn.btn-border-d:hover,
+.btn.btn-border-d:focus {
+	background: #000;
+	color: #fff;
+}
+
+.btn.btn-d {
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+}
+
+.btn.btn-d:hover,
+.btn.btn-d:focus {
+	background: #000;
+	color: #fff;
+}
+
+/* Button sizes */
+
+.btn.btn-lg {
+	padding: 12px 45px;
+	font-size: 13px;
+}
+
+.btn.btn-sm {
+	padding: 6px 25px;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+
+.btn.btn-xs {
+	padding: 4px 19px;
+	font-size: 10px;
+	letter-spacing: 0;
+}
+
+.btn-list .btn {
+	margin: 5px 0;
+}
+
+
+
+.et-icons .box1 {
+	border: 1px solid #e5e5e5;
+	display: block;
+	width: 25%;
+	float: left;
+	padding: 0;
+	font-size: 13px;
+	margin: -1px 0 0 -1px;
+}
+
+.et-icons .box1 > span {
+	display: inline-block;
+	border-right: 1px solid #e5e5e5;
+	min-width: 60px;
+	min-height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 28px;
+	margin-right: 5px;
+}
+
+.fa-icons > div {
+	padding: 0;
+	border: 1px solid #e5e5e5;
+	margin: -1px 0 0 -1px;
+	font-size: 13px;
+}
+
+.fa-icons > div > i {
+	display: inline-block;
+	margin-right: 5px;
+	min-width: 40px;
+	min-height: 40px;
+	border-right: 1px solid #f1f1f1;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.help-block ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/* ------------------------------------------------------------------
+Typography
+------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------
+Navbar
+------------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------
+Home Section
+------------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------
+Sections
+------------------------------------------------------------------- */
+
+.wrapper {
+	position: relative;
+	background: #fff;
+	z-index: 1;
+}
+
+
+
+/* Sections dividers */
+
+.divider-w {
+	border-top: 1px solid #f5f5f5;
+	margin: 0;
+}
+
+/* ------------------------------------------------------------------
+Social list
+------------------------------------------------------------------- */
+
+.social-list {
+	list-style: none;
+	padding: 0;
+	margin: 10px;
+}
+
+.social-list > li {
+	display: inline-block;
+	font-size: 24px;
+    margin: 5px 5px 5px 0;
+}
+
+
+
+
+
+
+.page-loader {
+	position: fixed;
+	background-color:rgba(0, 0, 0, 0.13);
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 9998;
+}
+
+.loader {
+	position: absolute;
+	border-left: 2px solid #000000;
+    border-top: 2px solid rgba(0, 0, 0, 0.29);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+	height: 46px;
+	width: 46px;
+	left: 50%;
+	top: 50%;
+	margin: -23px 0 0 -23px;
+	text-indent: -9999em;
+	font-size: 10px;
+	z-index: 9999;
+	-webkit-animation: load 0.8s infinite linear;
+	   -moz-animation: load 0.8s infinite linear;
+		 ms-animation: load 0.8s infinite linear;
+		  o-animation: load 0.8s infinite linear;
+			animation: load 0.8s infinite linear;
+}
+
+.loader,
+.loader:after {
+	border-radius: 50%;
+	width: 46px;
+	height: 46px;
+}
+
+@-webkit-keyframes load {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes load {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+/* -------------------------------------------------------------------
+Responsive Media Querries
+------------------------------------------------------------------- */
+
+
+
+@media (max-width: 991px) {
+	.access-section .form-box .form-box-inner {
+		background: #fff;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px; 
+		border-radius: 4px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		padding: 5px;
+	}
+
+}
+
+
+
+
+/* -------------------------------------------------------------------
+Multi-columns-row
+------------------------------------------------------------------- */
+
+
+@media (max-width: 768px) {
+
+	 
+.access-section {
+  padding: 0px 1px;
+}
+
+ .facebook-btn {
+	margin-top: 2px;
+	margin-left:0;
+	}
+
+
+	
+}
+
+.access-section .divider span {
+	
+    color: #000000;
+}
+
+.access-section .form-box .form-box-inner {
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 40px;
+	
+}
+
+.form-control {
+    font-family: "Inconsolata", sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    height: 40px;
+    border: 1px solid #b2b2b2;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-color:black;
+}
+
+.btn {
+    padding: 8px 37px;
+    font-family: "Inconsolata", sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    height: 40px;
+}
+
+.access-section {
+  padding: 90px 10px 0px;
+}
+
+
+.access-section .form-box .form-box-inner {
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 0;
+}
+
+
+
+
+.dropdown-menu>li>a:hover {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: white;
+    background-color: #ec6952;
+    white-space: nowrap;
+}
+
+
+
+.page-header {
+
+    margin-top: 60px;
+}
+
+
+
+
+.sosyal  {
+
+    padding: 2px 20px;
+    font-family: "Inconsolata", sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    height: 21px;
+	background: black;
+   
+    color: #fff;
+	width: 100%;
+	position:fixed;
+	top: 0;
+
+}
+
+
+.social-buttons li a i {
+    background-color: #bbb;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    font-size: 15px;
+    line-height: 30px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+
+}
+
+

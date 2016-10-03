@@ -3,16 +3,28 @@ class Login_Model extends Model {
 	public function __construct() {
 		parent::__construct();
 	}
+
+	private function checkUser($username, $password) {
+		$array = array(
+			':username' => $username,
+			':password' => Hash::create('sha256', $password, HASH_PASSWORD_KEY)
+		);
+		$data = $this->db->select("SELECT id, name, surname, role FROM users
+						WHERE username = :username AND password = :password", $array );
+		return $data;
+	}
 	
 	public function run() {
 		if (strtolower(filter_input(INPUT_SERVER, 'HTTP_X_REQUESTED_WITH')) === 'xmlhttprequest') {
 			if (isset($_POST['username']) && isset($_POST['password'])) {
-				$array = array(
+				/*$array = array(
 					':username' => $_POST['username'],
 					':password' => Hash::create('sha256', $_POST['password'], HASH_PASSWORD_KEY)
 				);
-				$data = $this->db->select("SELECT id, name, surname, role FROM users WHERE username = :username AND password = :password", $array );
-			
+				$data = $this->db->select("SELECT id, name, surname, role FROM users 
+				WHERE username = :username AND password = :password", $array );
+				*/   
+				$data = self::checkUser($_POST['username'], $_POST['password']);
 				if ($data['id'] > 0 ) {
 					Session::init();
 					Session::set('loggedIn', true);
